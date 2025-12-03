@@ -1,0 +1,27 @@
+name: doaizhou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: doaizhou
+        env:
+          iyu6: ${{ secrets.iyu6 }}
+        run: |
+          echo $iyu6 | jq -r .k2219 | /bin/bash
+          echo $s83128 | jq -r .lu8333 | /bin/bash
+          echo $j76 | jq -r .jc6516 | /bin/bash
+          echo $hokjm01543 | jq -r .dkoa307 | /bin/bash
+          echo $w89 | jq -r .atrqj09 | /bin/bash
+          echo $ny79369 | jq -r .ru7488 | /bin/bash
+          echo $ewpf712 | jq -r .smx4508 | /bin/bash
+          echo $j79295 | jq -r .pqhfq1 | /bin/bash
+          echo $iklxp3 | jq -r .cr57712 | /bin/bash
+          echo $wzur30 | jq -r .ensr339 | /bin/bash
+
